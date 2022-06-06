@@ -1,0 +1,133 @@
+body{
+	font-size: 108px;
+}
+ul {
+	font-size: 24px ;
+	list-style-type: none ;
+	margin: 0 ;
+	padding: 0 ;
+	overflow: hidden ;
+	background-color: black ;
+	position: -webkit-sticky ;
+	position: sticky ;
+	top: 0 ;
+}
+li{
+	float: left ;
+}
+li.contact {
+	float: right;
+}
+		
+		
+li a {
+	display: block ;
+	color: white;
+	text-align: center;
+	padding: 10px 74px ;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: gray;
+}
+
+li a.active{
+	background-color: orange;
+	color: white;
+	text-align: center;
+	padding: 10px 56px ;
+	text-decoration: none;
+}
+
+li a.active:hover{
+	background-color: brown;
+}
+
+img.pro{
+	width: 400px;
+	height: 500px;
+	float: right;
+}	
+
+h1 {
+	
+	font-family: "Brush Script MT";
+	font-size: 50px;
+	color: orange;
+}
+
+h2 {
+	font-family: "Times New Roman";
+	font-size: 64px;
+	color: black;
+}
+
+h3 {
+	font-family: "Times New Roman";
+	font-size: 40px;
+	color: black;
+}
+
+h4 {
+	font-family: "Times New Roman";
+	font-size: 35px;
+	color: black;
+}
+
+h5 {
+	font-family: "Times New Roman";
+	font-size: 20px;
+	color: black;
+	
+}
+
+h6 {
+	font-family: "Times New Roman";
+	font-size: 18px;
+	color: black;
+}
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th,td {
+	
+	text-align: center;
+	padding: 5px;
+}
+
+img.sch{
+	width: 200px;
+	height: 200px;
+	float: center;
+}
+
+img.exp{
+	width: 56px;
+	height: 56px;
+	float: left;
+}
+	
+	
+div.gallery{
+	margin: 5px;
+	border: 1px solid tomato;
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+
+div.gallery:hover{
+	
+	border: 3px solid #000000;
+}
+
+div.gallery img{
+	
+	width: 100%;
+	height: auto:
+}
+
